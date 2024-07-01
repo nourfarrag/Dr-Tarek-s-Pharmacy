@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for additional styling */
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            width: calc(33.33% - 20px);
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+
+        .product img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .Cart {
+            margin-top: 10px;
+        }
+
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .category {
+            color: #4caf50;
+            margin-top: 30px;
+        }
+
+        .shampoo {
+            background-color: #fff;
+        }
+
+        .oils {
+            background-color: #f5f5f5;
+        }
+
+        .product:hover .icon {
+            color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-success text-white py-3">
+        <div class="container text-center">
+            <h1>DR.Tarek's Pharmacy</h1>
+        </div>
+    </header>
+    <nav class="bg-dark text-white py-2">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-capsules"></i> Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-chart-bar"></i> Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login/SignUp</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2 class="category shampoo">Shampoo</h2>
+        <div class="products-container">
+            <div class="product">
+                <p class="icon">Shampoo Clear</p>
+                <img src="imgs/710Yf3KF-mL.jpg" alt="Shampoo Clear Image">
+                <p>$35</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Shampoo Clear">
+                    <input type="hidden" name="price" value="35">
+                    <input type="hidden" name="orgprice" value="20">
+                    <input type="hidden" name="productcode" value="0992324">
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+            <!-- Add other shampoo products similarly -->
+            <div class="product">
+                <p class="icon">Pantene</p>
+                <img src="imgs/pantene.webp" alt="Pantene Image">
+                <p>$12</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Pantene">
+                    <input type="hidden" name="price" value="12">
+                    <input type="hidden" name="orgprice" value="8">
+                    <input type="hidden" name="productcode" value="0900024">
+
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+            <div class="product">
+                <p class="icon">Vatika</p>
+                <img src="imgs/OIP.jpg" alt="Vatika Image">
+                <p>$11</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Vatika">
+                    <input type="hidden" name="price" value="11">
+                    <input type="hidden" name="orgprice" value="6">
+                    <input type="hidden" name="productcode" value="088824">
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+
+        <h2 class="category oils">Oils</h2>
+        <div class="products-container">
+            <div class="product">
+                <p class="icon">Daber Amla</p>
+                <img src="imgs/download (1).jpg" alt="Daber Amla Image">
+                <p>$6</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Daber Amla">
+                    <input type="hidden" name="price" value="6">
+                    <input type="hidden" name="orgprice" value="2">
+                    <input type="hidden" name="productcode" value="0544024">
+
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+            <!-- Add other oil products similarly -->
+            <div class="product">
+                <p class="icon">Eva Hair Oil</p>
+                <img src="imgs\1.jpg" alt="Eva Hair Oil Image">
+                <p>$8</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Eva Hair Oil">
+                    <input type="hidden" name="price" value="8">
+                    <input type="hidden" name="orgprice" value="7">
+                    <input type="hidden" name="productcode" value="01114">
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+            <div class="product">
+                <p class="icon">Elvive Oil Serum</p>
+                <img src="imgs/1 (1).jpg" alt="Elvive Oil Serum Image">
+                <p>$10</p> <!-- Price added here -->
+                <form action="addtocart.php" method="post">
+                    <input type="hidden" name="product_name" value="Elvive Oil Serum">
+                    <input type="hidden" name="price" value="10">
+                    <input type="hidden" name="orgprice" value="5">
+                    <input type="hidden" name="productcode" value="092224">
+
+                    <button type="submit" class="Cart btn btn-success">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

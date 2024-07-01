@@ -1,0 +1,17 @@
+h1 {
+    font: bold;
+    text-align: center;
+    font-size:50px;
+}
+#suppbox table, #suppbox th, #suppbox td{
+    border: 1px solid black;
+    border-style: solid;
+}
+#suppbox table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#suppbox th {
+    background-color: green;
+    height: 40px;
+}

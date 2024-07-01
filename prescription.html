@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Prescription</title>
+    <link rel="stylesheet" href="prescription.css">
+</head>
+<body>
+<div class="wrapper">
+    <h2>Add Prescription</h2>
+    <form id="prescriptionForm" method="post" action="prescription.php">
+        <div class="form-group">
+            <label for="pname">Patient Name:</label>
+            <input type="text" id="pname" name="pname" required>
+        </div>
+        <div class="form-group">
+            <label for="pemail">Patient Email:</label>
+            <input type="email" id="pemail" name="pemail" required>
+        </div>
+        <div class="form-group">
+            <label for="prescriptiontext">Prescription Text:</label>
+            <input type="file" id="prescriptiontext" name="prescriptiontext" required>
+        </div>
+        <button type="submit">Add Prescription</button>
+    </form>
+</div>
+
+
+</body>
+</html>

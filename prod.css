@@ -1,0 +1,287 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4e6; 
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #81C784; 
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #66BB6A; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dashboard, .content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4CAF50; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333; 
+}
+
+.container a:hover {
+    opacity: 0.8; 
+}
+
+.container img {
+    width: 400px; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.info2 {
+    text-align: center; 
+    font-size: 16px;
+    color: #777; 
+    margin-bottom: 20px;
+}
+
+#class1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search
+{
+
+text-align: right;
+padding-top: 40px;
+
+}
+
+
+body {
+  background-image: url("images/background.jpg");
+ 
+  margin: 0; 
+}
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.About {
+  padding: 4px;
+  text-align:left;
+  background-color:green;
+  color: white;
+  border-radius: 3px; 
+  margin: 0px ;
+  max-width: 200px; 
+ }
+
+
+.About:hover {
+  background-color:white ;
+  color: green;
+}
+.info {
+    text-indent: 50px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 70px; 
+    font-weight: bold;
+    text-shadow: 4px 4px 4px darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    
+}
+.info:hover
+{
+
+  color:purple;
+  text-shadow: 4px 4px 4px white;
+    
+
+
+}
+.icon {
+    text-indent: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color:black;
+    text-align: left;
+    text-shadow: 4px 4px 4px lightgreen; 
+    font-weight: bold; 
+  
+    font-size: 30px; 
+    font-weight: bold; 
+    
+}
+
+.icon:hover {
+ color:green;
+ text-shadow: 4px 4px 4px white;
+
+}
+.icon2 {
+    text-indent: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color:black;
+    text-align: left;
+    text-shadow: 4px 4px 4px lightgreen; 
+    font-weight: bold; 
+  
+    font-size: 30px; 
+    font-weight: bold; 
+    
+}
+
+.icon2:hover {
+ color:green;
+ text-shadow: 4px 4px 4px blue;
+
+}
+.icon3 {
+    text-indent: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color:black;
+    text-align: left;
+    text-shadow: 4px 4px 4px blue; 
+    font-weight: bold; 
+  
+    font-size: 30px; 
+    font-weight: bold; 
+    
+}
+
+.icon3:hover {
+ color:green;
+ text-shadow: 4px 4px 4px white;
+
+}
+
+img{
+
+    max-width: 100px; 
+    height: 100px; 
+    
+}
+#class1 img {
+    max-width: 500px;
+    height: 300px;
+    margin-left: 60px;
+    border: 5px solid purple;
+    
+}
+
+.img1s img {
+    border: none;
+    max-width: 200px;
+    height: 200px;
+    
+    
+    
+}
+.img2 img {
+    border: none;
+}
+.Cart {
+    margin-top: 30px;
+    margin-left: 170px;
+    border: none; 
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.Cart:hover {
+    background-color: #28a745; 
+}
+
+.Cart:focus {
+    outline: none;
+}
+h2 {
+    font-size: xxx-large;
+    text-shadow: 4px 4px 4px lightgreen; 
+    text-size-adjust: initial;
+    color: black;
+    text-align: center;
+}
+
+h2:hover {
+    color: green;
+   
+}
+pre {
+    display: inline-block; /* Set display to inline */
+    background-color: #f0f0f0;
+    background-size: 1cm;
+    border: 1px solid #ccc;
+    padding: 10px;
+    white-space: pre-wrap;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 10px;
+    margin-left:120px; /* Move the box to the right */
+}

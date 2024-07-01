@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Center the form */
+form {
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */
+}
+
+/* Style the headings */
+h4 {
+    font-size: 1.5em;
+}
+
+/* Style the form fields */
+input[type="text"],
+input[type="date"],
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+span {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+center {
+    margin-bottom: 20px;
+}
